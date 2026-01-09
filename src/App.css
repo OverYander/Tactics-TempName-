@@ -41,18 +41,3 @@
   color: #888;
 }
 
-/*.NavigationBar {
-
-} */
-
-.Lineup {
-  width:80vw;
-  height:60vw;
-  padding: 1rem;
-  border: 0.5rem solid black;
-  margin: 0;
-
-  margin-left: auto;
-  margin-right: auto;
-}
-
