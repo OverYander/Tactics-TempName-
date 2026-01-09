@@ -67,7 +67,7 @@ button:focus-visible {
   }
 }
 
-/*.Navigation Bar {
+/*.NavigationBar {
 
 } */
 
@@ -75,7 +75,7 @@ button:focus-visible {
   width:80vw;
   height:60vw;
   padding: 1rem;
-  border: 0.5rem black;
+  border: 0.5rem solid black;
   margin: 0;
 
   margin-left: auto;
