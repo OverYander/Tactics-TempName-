@@ -66,3 +66,15 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+Navigation Bar {
+
+}
+
+Lineup {
+  width:80vw;
+  height:60vw;
+  padding: 1rem;
+  border: 0.5rem black;
+  margin: 0;
+}
