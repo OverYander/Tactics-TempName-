@@ -47,12 +47,13 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: gray;
 }
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -70,7 +71,7 @@ button:focus-visible {
 .UI {
     display: flex;
     flex-direction: column;
-    margin-top: 10vh;
+    margin-top: 5vh;
     margin-left: auto;
     margin-right: auto;
     gap: 10px;
@@ -80,19 +81,48 @@ button:focus-visible {
   width: 80vw;
   height: 60vh;
   padding: 0.5rem;
-  border: 5px solid gray;
+  border: 5px solid red;
   margin: 0;
-
 
   background-color: white;
 }
 
 .Management{
   width: 80vw;
-  height: 20vh;
+  height: 21vh;
   padding: 0.5rem;
-  border: 5px solid gray;
+  border: 5px solid red;
   margin: 0;
 
-  background-color: black;
+  background-color: white;
+
+  display: grid;
+  
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5vw;
+}
+
+.optionButton {
+  width: 100%;
+  height: 5vw;
+  border-radius: 0.4em;
+  border: 1px solid black;
+  background-color: gray;
+  cursor: pointer;
+  transition: border-color 0.25s;
+
+
+  text-align: center;
+  align-items: center;
+  font-size: 4rem;
+  font-family: inherit;
+}
+
+.optionButton:hover {
+  border-color: blue;
+}
+
+.optionButton:focus,
+.optionButton:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
 }
